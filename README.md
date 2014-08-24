@@ -80,3 +80,45 @@ I didn't know how to create a method which jumbles up an array. So I got the cod
 Link to the shuffle code: http://www.leepoint.net/notes-java/algorithms/random/random-shuffling.html
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[18/08/2014] Challenge #176 [Easy] Spreadsheet Developer pt.1: Cell Selection 
+
+Date Attempted - 21/08/2014		Date Completed – 24/08/2014
+
+Description - 
+
+Today and on Wednesday we will be developing a terminal-based spreadsheet package somewhat like ed used to be. Today we'll be taking a look at the mechanism for selecting ranges of cells from textual data.
+
+In the spreadsheet, each cell may be represented by one of two systems:
+•	Co-ordinate in memory. This looks like [X, Y] and represents the cell's position in the internal array or memory structure. X and Y begin at 0.
+•	Column-row syntax. This looks like A3, B9 or AF140 and is created from the row's alphabetical header and the column number, starting from 1. You may be more familiar with this syntax in programs such as Excel, Lotus 1-2-3 (lol as if) or LibreOffice Calc. Pay close attention to the naming of the columns - it's not a simple Base-26 system as you may expect. It's called bijective Base-26.
+
+
+Now to select a range, we need another syntax. The following symbols apply in order of precedence, top-to-bottom:
+•	A formula may have one or more :s (colons) in it. If so, a rectangle of cells is selected. This behaves the same way in Excel. Such a selection is called a range. For example, A3:C7 looks like this.
+•	A formula may have one or more &s (ampersands) in it. If so, both the cell/range specified to the left and right are selected. This is just a concatenation. For example, A1:B2&C3:D4 looks like this.
+•	A formula may have one ~ (tilde) symbol in it. If so, any cells specified before the tilde are added to the final selection, and any cells after the tilde are removed from the final selection of cells. For example, if I enterA1:C3~B2 then all cells from A1 to C3 except B2 are selected, which looks like this. (This acts like a relative complement of the right hand side in the left hand side.)
+
+
+Your challenge today will be, given a selection string like A3:C6&D1~B4&B5, print the co-ordinates of all of the selected cells, along with the count of selected cells.
+
+Input - You will be given a selection string like A3:C6&D1~B4&B5 on one line. E.g. B1:B3&B4:E10&F1:G1&F4~C5:C8&B2
+
+
+Output - First, print the number of cells selected (eg. if 50 cells are selected, print 50.)
+Then, on separate lines, print the co-ordinates of each selected cell.
+E.g. 29 [1, 0] [1, 2] [1, 3] [1, 4] [1, 5] [1, 6].....[5, 3]
+
+Extra Challenge  - None, but has a part 2 with a difficulty of hard 
+
+Language written in - Java
+
+Comments -  
+
+This challenge was interesting as throughout my university studies we have looked at mostly efficient ways of sorting. So to have a go at coding an inefficient sort helps me put into perspective how efficient sorting is very beneficial.
+This challenge was fun as I have used spread sheets before and to now code a feature of it (cell selection) has made me more appreciative of the work that has to go into it. It specified to use a bijective Base-26 system which I didn’t really understand so I decided to make a 10 by 10 grid instead as it was easier for me to work with. Other than that I didn’t make any other changes.
+
+I decided I would convert the column names which were letters of the alphabet into numbers to make it easier to work with co-ordinates. But I didn’t know how to do this so I used code from a post I saw on StackOverflow. 
+Link to StackOverflow post: http://stackoverflow.com/questions/4262567/convert-letter-to-digits
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
