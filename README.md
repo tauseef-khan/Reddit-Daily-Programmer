@@ -103,3 +103,23 @@ Comments -
 This challenge went well as I was familiar with quicksort and recursion with lisp lists. So I used a similar structure to the programs I wrote for lisp lists with recursion. I just tailored it to this challenge and it worked out for me. Overall, a good refresher to quicksort.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[01/09/2014] Challenge #178 [Easy] Transformers: Matrices in Disguise, pt. 1
+
+Date Attempted - 03/09/2014
+
+Date Completed - 06/09/2014
+
+Link to Challenge - http://www.reddit.com/r/dailyprogrammer/comments/2f6a7b/9012014_challenge_178_easy_transformers_matrices/
+
+Extra Challenge  - None
+
+Language written in - Java
+
+Comments - 
+
+This challenge was something which I thoroughly enjoyed. As I got to use the some methods in the Math class which I hadn’t used before such as sin() and cos(). Also, it was a challenge which required some planning out when it came to user inputting the commands repeatedly but I managed to figure it out. 
+
+Overall, a challenge I enjoyed because even though the commands were familiar to me, e.g. translating, reflecting, rotating and scaling, implementing them into code was interesting. As I could now figure out the values just by inputting a command rather than using pen and paper like in school! I learnt about the Rotation matrix for the rotating command, so as well as coding practise, I go to learn about a new concept.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
