@@ -123,3 +123,23 @@ This challenge was something which I thoroughly enjoyed. As I got to use the som
 Overall, a challenge I enjoyed because even though the commands were familiar to me, e.g. translating, reflecting, rotating and scaling, implementing them into code was interesting. As I could now figure out the values just by inputting a command rather than using pen and paper like in school! I learnt about the Rotation matrix for the rotating command, so as well as coding practise, I go to learn about a new concept.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[08/09/2014] Challenge #179 [Easy] You make me happy when clouds are gray...scale 
+
+Date Attempted - 08/09/2014
+
+Date Completed - 15/09/2014
+
+Link to Challenge - http://www.reddit.com/r/dailyprogrammer/comments/2ftcb8/9082014_challenge_179_easy_you_make_me_happy_when/
+
+Extra Challenge  - None
+
+Language written in - Java
+
+Comments - 
+
+The challenge introduced me to new concepts. I never really used Java’s AWT library to manipulate images like that. Although, I have used third party library to convert images into grayscale, it was called JavaCV. JavaCV had a built-in function whereas in this challenge you have to do it yourself. I had to look up how to do certain things but in the end I managed to complete the challenge.
+
+Overall, it was a good challenge as I learnt how to use some of the functions in the AWT library. However, I did use a simplistic method of taking the average value of RGB even though there is a problem doing it this way which is stated on the brief. But I didn’t know any other way as image manipulation is something I’m relatively new at. Maybe layer on I could find a better method and implement that.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
