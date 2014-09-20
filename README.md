@@ -143,3 +143,23 @@ The challenge introduced me to new concepts. I never really used Java’s AWT li
 Overall, it was a good challenge as I learnt how to use some of the functions in the AWT library. However, I did use a simplistic method of taking the average value of RGB even though there is a problem doing it this way which is stated on the brief. But I didn’t know any other way as image manipulation is something I’m relatively new at. Maybe layer on I could find a better method and implement that.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[15/09/2014] Challenge #180 [Easy] Look'n'Say 
+
+Date Attempted - 19/09/2014
+
+Date Completed - 20/09/2014
+
+Link to Challenge - http://www.reddit.com/r/dailyprogrammer/comments/2ggy30/9152014_challenge180_easy_looknsay/
+
+Extra Challenge  - Not yet attempted, but I'm confident as it is simple and it's more to do with pattern observation
+
+Language written in - Java
+
+Comments - 
+
+This challenge was a bit tricky to begin with as I didn’t know what to do when I had to reach the end of the string. So after some research I decided to add a special character. I used the ‘@’ symbol as I was dealing with numbers and this symbol won’t come up with any of the sequences.  The first time I tried to solve the problem I thought I had a good idea of what to do on paper. But as I typed out my solution I realised I hadn’t covered certain situations and it was a downward spiral when it came to getting the solution. However, the next day I was refreshed and within 10 minutes or so I identified the issues and fixed them and I got the complete solution in no time!
+
+Overall, a challenge which tested me a little more than usual. I know my solution isn’t as efficient as it could be as I have a loop within a loop, big-O notation of O(n^2). So I hope I can come up with a better solution if I come back to this problem again in the future. 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
