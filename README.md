@@ -163,3 +163,22 @@ This challenge was a bit tricky to begin with as I didn’t know what to do when
 Overall, a challenge which tested me a little more than usual. I know my solution isn’t as efficient as it could be as I have a loop within a loop, big-O notation of O(n^2). So I hope I can come up with a better solution if I come back to this problem again in the future. 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[22/09/2014] Challenge #181 [Easy] Basic Equations 
+
+Date Attempted - 23/09/2014
+
+Date Completed - 24/09/2014
+
+Link to Challenge - http://www.reddit.com/r/dailyprogrammer/comments/2h5b2k/09222014_challenge_181_easy_basic_equations/
+
+Extra Challenge  - Not yet attempted
+
+Language written in - Java
+
+Comments - 
+
+This challenge was pretty straightforward. The split() method was very useful as I could easily get rid of any unwanted characters and it would separate the result into an array. I ran into a problem when the user would input an equation in the form y=ab instead of y=ax+b, so I had to use if statements to check the length of the arrays and made adjustments accordingly. 
+Overall, it was a good challenge to do as it required some careful planning. Once I had come up with a plan it was easy to implement and I finished the challenge quickly.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
