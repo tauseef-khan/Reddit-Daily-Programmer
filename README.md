@@ -189,3 +189,23 @@ This challenge was pretty straightforward. The split() method was very useful as
 Overall, it was a good challenge to do as it required some careful planning. Once I had come up with a plan it was easy to implement and I finished the challenge quickly.
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[22/09/2014] Challenge #182 [Easy] The Column Conundrum
+
+Date Attempted - 30/09/2014
+
+Date Completed -  Almost complete, see comments section
+
+Link to Challenge - http://www.reddit.com/r/dailyprogrammer/comments/2hssx6/29092014_challenge_182_easy_the_column_conundrum/
+
+Extra Challenge  - Not yet attempted
+
+Language written in - Java
+
+Comments - 
+
+This challenge took me longer than expected. I had small problems with reading the file, splitting the text but my main problem was writing the text to the file. I couldn’t figure out a way to correctly print the text out. I successfully got four columns and the space between them correct but the columns differed in length. As this challenge was taking me some time I decided I might come back to it some other time if I can.
+
+Overall, a time-consuming challenge which required file operations and text manipulation which I sometimes do struggle at. The challenge is almost complete, all that is required is to print the text out in the correctly. This challenge was the most problematic so far.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
