@@ -21,6 +21,13 @@ That's all for now!!!
 
 P.S - The subreddit uses the date format (mm/dd/yyyy) for the challenge dates, whereas I use the format (dd/mm/yyyy) for dates written in this README file and in general thoughout this repo...SO BEWARE!
 
+
+[UPDATE: 04/10/2014]
+
+I shall only be doing the easy difficulty challenges from now on as I have got back to university a couple of weeks ago and I barely get time to do the challenges. Also, I may not post the solution to the challenge within that same week due to the reason stated but I'll try my best to stay on track and updated with the subreddit.
+
+End of Update.
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 [04/08/2014] Challenge #174 [Easy] Thue-Morse Sequences
